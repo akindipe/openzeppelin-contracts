@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.25;
 
 import "./ERC721.sol";
 import "./ERC721Enumerable.sol";
@@ -7,7 +7,7 @@ import "./ERC721Metadata.sol";
 /**
  * @title Full ERC721 Token
  * @dev This implementation includes all the required and some optional functionality of the ERC721 standard
- * Moreover, it includes approve all functionality using operator terminology.
+ * Moreover, it includes approving all functionality using operator terminology.
  *
  * See https://eips.ethereum.org/EIPS/eip-721
  */
